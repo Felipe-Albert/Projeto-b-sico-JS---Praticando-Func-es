@@ -1,1 +1,0 @@
-Nesse projeto eu crio funcoes para acender e apagar a lampada ao clicar nos botoes e ao colocar e tirar o mouse de cima da lampada, e ao dar duplo click na lampada ela quebra e nao executa as funcoes dos botoes. O titulo tambem recebe uma funcao mouseover e mouseout onde e alterado sua opacidade deixando-o mais visivel
