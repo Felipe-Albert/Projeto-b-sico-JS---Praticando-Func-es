@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+#title {
+    color: white;
+    opacity: 0.3;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: white;
+    margin-top: 20px;
+    width: 80px;
+    height: 22px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+#turnOn {
+    background-color: #006400;
+    transition: background-color 500ms 100ms ease-in-out, width 500ms ease-in-out, height 500ms ease-in-out, border-radius ease-in-out;
+}
+
+#turnOn:hover {
+    background-color: #7CFC00;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#turnOff {
+    background-color: #8B0000;
+    transition: background-color 500ms 100ms ease-in-out, width 500ms ease-in-out, height 500ms ease-in-out, border-radius ease-in-out;
+}
+
+#turnOff:hover {
+    background-color: #FF0000;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
